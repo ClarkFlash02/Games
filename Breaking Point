@@ -2,7 +2,7 @@
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "CodeGaming Hub - Breaking Point", HidePremium = false, IntroText = "CGHub",  SaveConfig = true, ConfigFolder = "CodeGaming Hub"})
+local Window = OrionLib:MakeWindow({Name = "CodeGaming Hub🇵🇭 - Breaking Point", HidePremium = false, IntroText = "CGHub",  SaveConfig = true, ConfigFolder = "CodeGaming Hub"})
 
 ---Tab1
 
