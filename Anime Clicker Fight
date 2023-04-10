@@ -7,7 +7,7 @@ local Window = OrionLib:MakeWindow({Name = "CodeGaming Hub🇵🇭 - Anime Click
 ---Tab1
 
 local Tab1 = Window:MakeTab({
-	Name = "Anime Clicker Fight",
+	Name = "ANIME CLICKER FIGHT",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
