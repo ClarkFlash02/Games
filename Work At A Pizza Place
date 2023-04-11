@@ -7,7 +7,7 @@ local Window = OrionLib:MakeWindow({Name = "CodeGaming Hub🇵🇭 - Work At A P
 ---Tab1
 
 local Tab1 = Window:MakeTab({
-	Name = "WORK AT PIZZA",
+	Name = "AUTOFARM",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
