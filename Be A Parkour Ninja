@@ -1,0 +1,327 @@
+---Build
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "CodeGaming Hub🇵🇭 - Be A Parkour Ninja", HidePremium = false, IntroText = "CGHub",  SaveConfig = true, ConfigFolder = "CodeGaming Hub"})
+
+---Tab1
+
+local Tab1 = Window:MakeTab({
+	Name = "BE A PARKOUR NINJA",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+---Tab2
+
+local Tab2 = Window:MakeTab({
+	Name = "HUBS",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab3 = Window:MakeTab({
+	Name = "FE",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab4 = Window:MakeTab({
+	Name = "OTHERS",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab5 = Window:MakeTab({
+	Name = "CREDITS",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+---Tabs
+
+Tab1:AddButton({
+	Name = "Play",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Min1273/n-to/main/README.md"))()
+      		print("Done!")
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "Admin Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/simplityv2/main/main"))()
+      		print("Done!")
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "Arceus X",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
+      		print("Done!")
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "B Genesis Hub",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/raw-scriptpastebin/raw/main/B_Genesis'))()
+      		print("Done!")
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "Feyz Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/bzmhRgKL"))()
+      		print("Done!")
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "Ghost Hub",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+      		print("Done!")
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "MoonUi Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeyocutgHAH/MoonUI-v11-v1/main/MoonUI"))()
+      		print("Done!")
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "Synapse X",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/tWGxhNq0"))()
+      		print("Done!")
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "VHub",
+	Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Veincx5315/Created/VHub/Simple'),true))()
+      		print("Done!")
+  	end    
+})
+
+---Tab3
+
+Tab3:AddButton({
+	Name = "Among Us",
+	Callback = function()
+loadstring(game:HttpGet(('https://pastefy.ga/7xEZRqfH/raw'),true))()
+      		print("Done!")
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Animation",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
+      		print("Done!")
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Annoy Player",
+	Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/ZME5dX7w'))()
+      		print("Done!")
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Auto Walk",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Auto%20Walk%20Obfuscator'))()
+      		print("Done!")
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Bypass Chat",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/x114/RobloxScripts/main/FullChatBypass"))()
+      		print("Done!")
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Fake Lag",
+	Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/VM3b0Thg'))()
+      		print("Done!")
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Invisible",
+	Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/AYtzGEPb'))()
+      		print("Done!")
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Netless",
+	Callback = function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/5seCbYFa'),true))()
+      		print("Done!")
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Orbit (R6 Only)",
+	Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/BsJ4xfXu'))()
+      		print("Done!")
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Emotes (R16 Only)",
+	Callback = function()
+loadstring(game:HttpGet("https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/R15GUI.lua"))()
+      		print("Done!")
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Rewind",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/L"))()
+      		print("Done!")
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Tall",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CodeGaming2/Ctto/main/fetall"))()
+      		print("Done!")
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Teleport",
+	Callback = function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/DagerFild/b4776075a0d26ef04394133ee6bd2081/raw/0ed51ac94057d2d9a9f00e1b037b9011c76ca54a/tpGUI", true))()
+      		print("Done!")
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Troll Chat",
+	Callback = function()
+loadstring(game:HttpGet(('https://pastefy.ga/zCFEwaYq/raw'),true))()
+      		print("Done!")
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Small",
+	Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/kQVC6Y1F'))()
+      		print("Done!")
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Steal Tools",
+	Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/MG2wxRbE'))()
+      		print("Done!")
+  	end    
+})
+
+---Tab4
+
+Tab4:AddButton({
+	Name = "Auto Clicker",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0youtubez", true))()
+      		print("Done!")
+  	end    
+})
+
+Tab4:AddButton({
+	Name = "Better Roblox",
+	Callback = function()
+loadstring(game:HttpGet("https://eternityhub.xyz/BetterRoblox/Loader"))()
+      		print("Done!")
+  	end    
+})
+
+Tab4:AddButton({
+	Name = "Fly",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/gNb0mYab"))()
+      		print("Done!")
+  	end    
+})
+
+Tab4:AddButton({
+	Name = "Infinity Yield",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+      		print("Done!")
+  	end    
+})
+
+Tab4:AddButton({
+	Name = "Keyboard GUI",
+	Callback = function()
+      		print("Done!")
+  	end    
+})
+
+Tab4:AddButton({
+	Name = "Reduce Lag",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/RW7ZT29m"))()
+      		print("Done!")
+  	end    
+})
+
+Tab4:AddButton({
+	Name = "RTX GUI",
+	Callback = function()
+loadstring(game:HttpGet(('https://pastefy.ga/xXkUxA0P/raw'),true))()
+      		print("Done!")
+  	end    
+})
+
+Tab4:AddButton({
+	Name = "Show FPS",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/littlegui/main/FPS-Counter'))()
+      		print("Done!")
+  	end    
+})
+
+Tab4:AddButton({
+	Name = "Speed and Jump Hack",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CodeGaming2/Ctto/main/mataasatmabilis"))()
+      		print("Done!")
+  	end    
+})
+
+---Tab5
+
+Tab5:AddLabel("Made By CodeGaming")
+Tab5:AddLabel("UI Library | Kavo UI by xHeptc")
+Tab5:AddLabel("YouTube | Code Gaming")
+Tab5:AddLabel("Discord | CodeTzy#3419")
+Tab5:AddLabel("Updated | April 10 2023")
+
+
+OrionLib:Init()
