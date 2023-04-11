@@ -2,12 +2,12 @@
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "CodeGaming Hub🇵🇭 - Longest Answer Wins, HidePremium = false, IntroText = "CGHub",  SaveConfig = true, ConfigFolder = "CodeGaming Hub"})
+local Window = OrionLib:MakeWindow({Name = "CodeGaming Hub🇵🇭 - Longest Answer Wins", HidePremium = false, IntroText = "CGHub",  SaveConfig = true, ConfigFolder = "CodeGaming Hub"})
 
 ---Tab1
 
 local Tab1 = Window:MakeTab({
-	Name = "AUTO WIN",
+	Name = "L.A.W",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -41,7 +41,7 @@ local Tab5 = Window:MakeTab({
 ---Tabs
 
 Tab1:AddButton({
-	Name = "Toggle",
+	Name = "Play",
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CodeGaming2/Ctto/main/lawcg"))()
       		print("Done!")
@@ -322,14 +322,6 @@ Tab5:AddLabel("UI Library | Kavo UI by xHeptc")
 Tab5:AddLabel("YouTube | Code Gaming")
 Tab5:AddLabel("Discord | CodeTzy#3419")
 Tab5:AddLabel("Updated | April 10 2023")
-
-Tab5:AddButton({
-	Name = "Speed and Jump Hack",
-	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/CodeGaming2/Ctto/main/mataasatmabilis"))()
-      		print("Done!")
-  	end    
-})
 
 
 OrionLib:Init()
