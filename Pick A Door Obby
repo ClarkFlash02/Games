@@ -2,12 +2,12 @@
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "CodeGaming Hub🇵🇭 - 50/50 Pick A Door Obby", HidePremium = false, IntroText = "CGHub",  SaveConfig = true, ConfigFolder = "CodeGaming Hub"})
+local Window = OrionLib:MakeWindow({Name = "CodeGaming Hub🇵🇭 - Pick A Door Obby", HidePremium = false, IntroText = "CGHub",  SaveConfig = true, ConfigFolder = "CodeGaming Hub"})
 
 ---Tab1
 
 local Tab1 = Window:MakeTab({
-	Name = "PICK A DOOR OBBY",
+	Name = "PICK A DOOR",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
