@@ -322,6 +322,13 @@ Tab5:AddLabel("UI Library | Kavo UI by xHeptc")
 Tab5:AddLabel("YouTube | Code Gaming")
 Tab5:AddLabel("Discord | CodeTzy#3419")
 Tab5:AddLabel("Updated | April 10 2023")
+Tab5:AddButton({
+	Name = "SUPPORTED GAMES",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ClarkFlash02/Supported/main/CG%20Hub"))()
+      		print("Done!")
+  	end    
+})
 
 
 OrionLib:Init()
