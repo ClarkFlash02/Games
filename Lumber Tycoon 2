@@ -43,7 +43,7 @@ local Tab5 = Window:MakeTab({
 Tab1:AddButton({
 	Name = "Play",
 	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NOOBARMYSCRIPTER/NOOBARMYSCRIPTER/main/AXE%20LOOP%20SCRIPT", true))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/butter-hub/main/Butterhub.txt'))()
       		print("Done!")
   	end    
 })
