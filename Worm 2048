@@ -321,7 +321,7 @@ Tab5:AddLabel("Made By CodeGaming")
 Tab5:AddLabel("UI Library | Kavo UI by xHeptc")
 Tab5:AddLabel("YouTube | Code Gaming")
 Tab5:AddLabel("Discord | CodeTzy#3419")
-Tab5:AddLabel("Updated | April 10 2023")
+Tab5:AddLabel("Updated | April 12 2023")
 Tab5:AddButton({
 	Name = "SUPPORTED GAMES",
 	Callback = function()
