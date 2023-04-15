@@ -43,7 +43,15 @@ local Tab5 = Window:MakeTab({
 Tab1:AddButton({
 	Name = "Play",
 	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/DreadzHub2/DreadzHub-Scripts-FR/main/Loader"))()
+loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+      		print("Done!")
+  	end    
+})
+
+Tab1:AddButton({
+	Name = "Egg Farm",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0mm2", true))()
       		print("Done!")
   	end    
 })
@@ -321,7 +329,7 @@ Tab5:AddLabel("Made By CodeGaming")
 Tab5:AddLabel("UI Library | Kavo UI by xHeptc")
 Tab5:AddLabel("YouTube | Code Gaming")
 Tab5:AddLabel("Discord | CodeTzy#3419")
-Tab5:AddLabel("Updated | April 10 2023")
+Tab5:AddLabel("Updated | April 15 2023")
 Tab5:AddButton({
 	Name = "SUPPORTED GAMES",
 	Callback = function()
