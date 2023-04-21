@@ -163,6 +163,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/x114/RobloxScripts/ma
 })
 
 Tab3:AddButton({
+	Name = "Emotes",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/eCpipCTH"))()
+      		print("Done!")
+  	end    
+})
+
+Tab3:AddButton({
 	Name = "Fake Lag",
 	Callback = function()
 loadstring(game:HttpGet('https://pastebin.com/raw/VM3b0Thg'))()
