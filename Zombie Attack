@@ -163,6 +163,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/x114/RobloxScripts/ma
 })
 
 Tab3:AddButton({
+	Name = "Emotes",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ClarkFlash02/Supported/main/Emotes"))()
+      		print("Done!")
+  	end    
+})
+
+Tab3:AddButton({
 	Name = "Fake Lag",
 	Callback = function()
 loadstring(game:HttpGet('https://pastebin.com/raw/VM3b0Thg'))()
@@ -190,14 +198,6 @@ Tab3:AddButton({
 	Name = "Orbit (R6 Only)",
 	Callback = function()
 loadstring(game:HttpGet('https://pastebin.com/raw/BsJ4xfXu'))()
-      		print("Done!")
-  	end    
-})
-
-Tab3:AddButton({
-	Name = "Emotes (R16 Only)",
-	Callback = function()
-loadstring(game:HttpGet("https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/R15GUI.lua"))()
       		print("Done!")
   	end    
 })
