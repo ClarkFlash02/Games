@@ -43,7 +43,7 @@ local Tab5 = Window:MakeTab({
 Tab1:AddButton({
 	Name = "Play",
 	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/DreadzHub2/DreadzHub-Scripts-FR/main/Loader"))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/bardium/random/main/plsdonateoldtestingversion'))()
       		print("Done!")
   	end    
 })
