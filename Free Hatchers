@@ -171,6 +171,14 @@ loadstring(game:HttpGet('https://pastebin.com/raw/VM3b0Thg'))()
 })
 
 Tab3:AddButton({
+	Name = "Fly Vehicle",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/MHE1cbWF"))()
+      		print("Done!")
+  	end    
+})
+
+Tab3:AddButton({
 	Name = "Invisible",
 	Callback = function()
 loadstring(game:HttpGet('https://pastebin.com/raw/AYtzGEPb'))()
