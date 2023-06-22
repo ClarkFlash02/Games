@@ -48,14 +48,6 @@ loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
   	end    
 })
 
-Tab1:AddButton({
-	Name = "Egg Farm",
-	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0mm2", true))()
-      		print("Done!")
-  	end    
-})
-
 Tab2:AddButton({
 	Name = "Admin Hub",
 	Callback = function()
@@ -337,7 +329,7 @@ Tab5:AddLabel("Made By CodeGaming")
 Tab5:AddLabel("UI Library | Kavo UI by xHeptc")
 Tab5:AddLabel("YouTube | Code Gaming")
 Tab5:AddLabel("Discord | CodeTzy#3419")
-Tab5:AddLabel("Updated | April 30 2023")
+Tab5:AddLabel("Updated | June 22 2023")
 Tab5:AddButton({
 	Name = "SUPPORTED GAMES",
 	Callback = function()
